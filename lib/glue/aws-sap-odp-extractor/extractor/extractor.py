@@ -15,8 +15,8 @@ import uuid
 # ------------------------
 sapHostName = ""
 sapPort = ""
-sapUser = ""
-sapPassword = ""
+#sapUser = ""
+#sapPassword = ""
 odpServiceName = ""
 odpEntitySetName = ""
 dataChunkSize = "1000"
@@ -27,8 +27,8 @@ selfSignedCertificate = ""
 selfSignedCertificateS3Bucket = ""
 selfSignedCertificateS3Key = ""
 reLoad = False
-_athenacompatiblejson = False
-_allowInValidCerts = False
+_athenacompatiblejson = True
+_allowInValidCerts = True
 
 # ------------------------
 # All Constants
@@ -148,7 +148,7 @@ def _get_base_url():
     global sapPort
     if sapPort == "":
         sapPort = "443"
-    return "https://" + sapHostName + ":" + sapPort + "/sap/opu/odata/SAP/" + odpServiceName
+    return "http://" + sapHostName + ":" + sapPort + "/sap/opu/odata/SAP/" + odpServiceName
 
 # ------------------------------------
 # Get the last available delta link
@@ -192,8 +192,8 @@ def _make_http_call_to_sap(url,headers):
         print(certfile.read())
     elif _allowInValidCerts == True:
         verify = False
-    return requests.get( url,auth=HTTPBasicAuth(sapUser,sapPassword), headers=headers,verify=verify)
-
+#    return requests.get( url,auth=HTTPBasicAuth(sapUser,sapPassword), headers=headers,verify=verify)
+    return requests.get( url, headers=headers,verify=verify)
 
 # ------------------------------------
 # Get metadata from DynamoDB
