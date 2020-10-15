@@ -6,7 +6,7 @@ This is a sample application for extracting data from SAP applications (SAP S/4H
 
 ## Requirements
 
-* [AWS CLI already configured with Administrator permission](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html)
+* [AWS CLI already configured with Administrator permission](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html) download it [here](https://aws.amazon.com/cli/)
 * [NodeJS 10.x installed](https://nodejs.org/en/download/)
 * [AWS CDK installed](https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html)
 * SAP application (ABAP stack) with SAP Netweaver 7.5 or above. If required, you can create an SAP ABAP developer edition using cloud formation template [here](https://github.com/aws-samples/aws-cloudformation-sap-abap-dev)
