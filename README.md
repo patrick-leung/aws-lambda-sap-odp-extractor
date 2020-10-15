@@ -1,4 +1,4 @@
-# VNSG Workshop - Start Building your AWS Data Lake
+# VNSG SAP on AWS Workshop - Start Building your AWS Data Lake
 
 Michiel Bijlsma and Patrick Leung - SAP on AWS Specialist Solution Architect
 
