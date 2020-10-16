@@ -54,13 +54,19 @@ cdk bootstrap aws://<YOUR ACCOUNT ID>/<YOUR AWS REGION>
 ```bash
 cdk deploy
 ```
-8. Once the stack is deployed successfully.
 
-### Testing
+### Configuration and Testing
 
-1. Open test Lambda function (you can get the name from the CloudFormation output) and update the dataS3Folder, odpServiceName, odpEntitySetName, sapHostName and sapPort according to your SAP application and OData details
+1. Create a Folder in the S3 Bucket
 
-2. Execute a test in the Lambda function. This should extract the data from backend SAP application and load it to the S3 bucket.
+2. Open test Lambda function and update the environment variables 
+      dataS3Folder, 
+      odpServiceName (provided by the instructor), 
+      odpEntitySetName provided by the instructor), 
+      sapHostName (provided by the instructor)
+      sapPort (provided by the instructor) 
+
+2. Create a test event and execute a test in the Lambda function. This should extract the data from backend SAP application and load it to the S3 bucket.
 
 ### Cleanup
 
