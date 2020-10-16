@@ -7,7 +7,7 @@ This is a sample application for extracting data from SAP applications (SAP S/4H
 ## Requirements
 ### All participants:
 * [AWS CLI already configured with Administrator permission](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html) , download it [here](https://aws.amazon.com/cli/)
-* [NodeJS 10.x installed](https://nodejs.org/en/download/)
+* [NodeJS 10.x installed](https://nodejs.org/en/download/) (include the Tools in the Windows installation)
 * [AWS CDK installed](https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html)
 
 ### Instructors:
