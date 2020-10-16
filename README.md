@@ -5,12 +5,12 @@ Michiel Bijlsma and Patrick Leung - SAP on AWS Specialist Solution Architect
 This is a sample application for extracting data from SAP applications (SAP S/4HANA, SAP ECC and SAP BW) using Operational Data Provisioning (ODP). You can find more information on ODP [here](https://blogs.sap.com/2017/07/20/operational-data-provisioning-odp-faq/). Operational Data Provisioning can expose the full load and delta data using OData services. This application package contains a Lambda layer to connect with SAP and consume the OData services as a REST API. Extracted data is saved to S3 Bucket. A DynamoDB table is also created to store the metadata for extracts. The package also contains a sample Lambda function to demonstrate usage of the lamdba layer
 
 ## Requirements
-# All participants:
+### All participants:
 * [AWS CLI already configured with Administrator permission](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html) , download it [here](https://aws.amazon.com/cli/)
 * [NodeJS 10.x installed](https://nodejs.org/en/download/)
 * [AWS CDK installed](https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html)
 
-# Instructors:
+### Instructors:
 * SAP application (ABAP stack) with SAP Netweaver 7.5 or above. If required, you can create an SAP ABAP developer edition using cloud formation template [here](https://github.com/aws-samples/aws-cloudformation-sap-abap-dev)
 * OData services for ODP based extraction are already created. It is assumed to you know about ODP and how OData services can be created from them. [This](https://help.sap.com/viewer/ccc9cdbdc6cd4eceaf1e5485b1bf8f4b/7.5.9/en-US/11853413cf124dde91925284133c007d.html) SAP documentation link provides information on how to expose ODP as OData services. You can find more information on ODP [here](https://blogs.sap.com/2017/07/20/operational-data-provisioning-odp-faq/).
 
