@@ -63,10 +63,10 @@ cdk deploy
 
 2. Open test Lambda function and update the environment variables 
   * dataS3Folder (created in the previous step) 
-  * odpServiceName (provided by the instructor) 
-  * odpEntitySetName provided by the instructor) 
+  * odpServiceName is ZEPM_DS_SALESORDER_SRV_01 
+  * odpEntitySetName is EntityOf0EPM_DS_SALESORDER 
   * sapHostName (provided by the instructor)
-  * sapPort (provided by the instructor) 
+  * sapPort is 50000
 
 2. Create a test event and execute a test in the Lambda function. This should extract the data from backend SAP application and load it to the S3 bucket.
 
