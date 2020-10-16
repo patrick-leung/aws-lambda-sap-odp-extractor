@@ -8,7 +8,8 @@ This is a sample application for extracting data from SAP applications (SAP S/4H
 ### All participants:
 * [AWS CLI already configured with Administrator permission](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html) , download it [here](https://aws.amazon.com/cli/)
 * [NodeJS 10.x installed](https://nodejs.org/en/download/) (include the Tools in the Windows installation)
-* [AWS CDK installed](https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html)
+* [AWS CDK installed](https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html) - use NodeJS npm to install this to test npm!
+* [GIT Toolkit installed](https://git-scm.com/downloads)
 
 ### Instructors:
 * SAP application (ABAP stack) with SAP Netweaver 7.5 or above. If required, you can create an SAP ABAP developer edition using cloud formation template [here](https://github.com/aws-samples/aws-cloudformation-sap-abap-dev)
@@ -19,6 +20,12 @@ This is a sample application for extracting data from SAP applications (SAP S/4H
 2. You will need to login with their Amazon Retail account in order to access an event using an event hash code from your instructors
 3. Create your team name
 4. Click on AWS console and you will get a pop up, choice Mac/Linux or Windows, copy the export paste into the terminal. Leave this terminal up and running as we will be using this for the deployment.    
+
+## Git Installation 
+
+
+## Node.JS Installation
+
 
 ## Setup Process
 
