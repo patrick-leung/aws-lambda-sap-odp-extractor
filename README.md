@@ -54,7 +54,7 @@ cdk bootstrap aws://<YOUR ACCOUNT ID>/<YOUR AWS REGION>
 ```bash
 cdk deploy
 ```
-8. Once the stack is deployed successfully, go to Secrets Manager and update the SAP user ID and password for connecting to the backend SAP application and pull data using OData/ODP. You can get the secrets manager ARN from the output of the CDK output or CloudFormation output
+8. Once the stack is deployed successfully.
 
 ### Testing
 
