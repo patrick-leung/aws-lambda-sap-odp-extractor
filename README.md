@@ -14,6 +14,12 @@ This is a sample application for extracting data from SAP applications (SAP S/4H
 * SAP application (ABAP stack) with SAP Netweaver 7.5 or above. If required, you can create an SAP ABAP developer edition using cloud formation template [here](https://github.com/aws-samples/aws-cloudformation-sap-abap-dev)
 * OData services for ODP based extraction are already created. It is assumed to you know about ODP and how OData services can be created from them. [This](https://help.sap.com/viewer/ccc9cdbdc6cd4eceaf1e5485b1bf8f4b/7.5.9/en-US/11853413cf124dde91925284133c007d.html) SAP documentation link provides information on how to expose ODP as OData services. You can find more information on ODP [here](https://blogs.sap.com/2017/07/20/operational-data-provisioning-odp-faq/).
 
+## Event Engine
+1. Go to the website  https://dashboard.eventengine.run/login
+2. You will need to login with their Amazon Retail account in order to access an event using an event hash code from your instructors
+3. Create your team name
+4. Click on AWS console and you will get a pop up, choice Mac/Linux or Windows, copy the export paste into the terminal. Leave this terminal up and running as we will be using this for the deployment.    
+
 ## Setup Process
 
 Note: This process creates various resources in your AWS account. Check the resources created section for more information what gets created. You incur charges for using the resources created and you are responsible for those charges.
