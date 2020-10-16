@@ -20,12 +20,6 @@ This is a sample application for extracting data from SAP applications (SAP S/4H
 3. Create your team name
 4. Click on AWS console and you will get a pop up, choice Mac/Linux or Windows, copy the export paste into the terminal. Leave this terminal up and running as we will be using this for the deployment.    
 
-## Git Installation 
-
-
-## Node.JS Installation
-
-
 ## Setup Process
 
 Note: This process creates various resources in your AWS account. Check the resources created section for more information what gets created. You incur charges for using the resources created and you are responsible for those charges.
