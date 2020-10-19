@@ -21,7 +21,7 @@ This is a sample application for extracting data from SAP applications (SAP S/4H
 
 ### Setup Cloud9
 
-Follow the [instruction] (https://docs.aws.amazon.com/cloud9/latest/user-guide/setup-express.html) to create a cloud9 enironment. 
+Follow the [instruction](https://docs.aws.amazon.com/cloud9/latest/user-guide/setup-express.html) to create a cloud9 enironment. 
 
 ### Deploy Lambda Function for SAP ODP Extraction to Amazon S3
 
