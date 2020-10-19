@@ -64,7 +64,7 @@ cdk deploy
   * sapHostName (provided by the instructor)
   * sapPort is 50000
 
-2. Create a test event and execute a test in the Lambda function. This should extract the data from backend SAP application and load it to the S3 bucket.
+3. Create a test event and execute a test in the Lambda function. This should extract the data from backend SAP application and load it to the S3 bucket.
 
 ### Cleanup
 
