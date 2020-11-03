@@ -48,7 +48,8 @@ cd ..
 cdk bootstrap aws://<YOUR ACCOUNT ID>/<YOUR AWS REGION>
 ```
 
-7. Deploy the stack to your account. Make sure your CLI is setup for account ID and region provided in the appConfig.json file. 
+7. Deploy the stack to your account. Make sure your (AWS) CLI environment is setup for account ID and region provided in the appConfig.json file. 
+(This is automatically set-up in case Cloud 9 is used as the CLI environment in the same region, just execute the deploy command below?)
 ```bash
 cdk deploy
 ```
