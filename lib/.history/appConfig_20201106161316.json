@@ -1,7 +1,7 @@
 {
     "env" : {
         "account" : "<AWS Account ID>",
-        "region" : "<AWS region>"
+        "region" : "us-east-1"
     },
     "stackName" : "SAPODP",
     "cfexports":{
