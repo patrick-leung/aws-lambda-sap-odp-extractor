@@ -87,7 +87,7 @@ def _extract(link,isInit):
     url = link
     if url == " ":
         #url = _get_base_url() + "/EntityOf" + odpEntitySetName + "?$format=json&$top=3"
-        url = _get_base_url() + "/" + odpEntitySetName + "?$format=json&$top=3"
+        url = _get_base_url() + "/" + odpEntitySetName + "?$format=json"
     
     headers = {
         "prefer" : "odata.maxpagesize=" + dataChunkSize + ",odata.track-changes"
